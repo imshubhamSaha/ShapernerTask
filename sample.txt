@@ -1,0 +1,17 @@
+<head>
+<h1> Title </h1>
+</head>
+<body>
+<input type="text" name="Name" />
+<input type="button" value="Submit" />
+</body>
+
+DOM TREE
+
+1) Dom tree starts from Parent (Document). 
+2) Document has Child element (html) which is also called root element;
+3) Root element has two children element <head>  and <body>;
+4) further <head> element has one child <h1> element and <h1> element has a child Text;
+5)<body> element has two (2) children -:
+  i> TextArea which has a Name attribute;
+  ii> button Which has Value attribute;
